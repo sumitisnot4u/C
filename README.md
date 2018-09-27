@@ -16,6 +16,7 @@ Introduction to Programming Using Python
 
 譯者： 蔡明志
 出版社：碁峰 
+https://www.books.com.tw/products/0010719771
 ```
 ```
 ```
