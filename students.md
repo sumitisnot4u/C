@@ -38,7 +38,7 @@ A070D123 林X彥 https://github.com/A070D123/c
 A070E101 廖X豪 https://github.com/clownhau0725/CA
 A070E122 鄭x鎧 https://github.com/A0700E122/C
 A070D120 郭X綸 https://github.com/qwsaz3215/C
-4070E055 張x鈞 https://github.com/qaqa0620331/C
+4070E055 張x鈞 https://github.com/qaqa0620331/C-
 A1040H163 傅晟育 https://github.com/A1040H163/C
 4070E066 許x淮 https://github.com/lDraBOl/STUDENT
 4071E001 陳x茹  https://github.com/4071E001/c
