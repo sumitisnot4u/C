@@ -3,6 +3,9 @@
 完成Python教科書Ch 1.9的閱讀與練習
 完成Python教科書Ch 1作業:十題以上(放在你的github)
 ```
+```
+完成Python教科書Ch 2作業:2.1+2.5(放在你的github)
+```
 
 # C
 ```
