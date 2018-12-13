@@ -24,8 +24,28 @@ int main(void)
 [2]num的位址為何?
 [3]ptr的位址為何?
 ```
+### ex-2:
+```
+#include <stdio.h> 
+#include <stdlib.h>
+int main(void)
+{
+   int *ptr,d=100,num=20,c=33;	/* 宣告變數num與指標變數ptr */
 
+   ptr=&num;			/* 將num的位址設給指標ptr存放 */
+   printf("num=%d, num的位址=&num=%p\n",num,&num); 
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr); 
+   ptr=&c;
+   printf("c=%d, c的位址=&c=%p\n",c,&c); 
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr); 
+   ptr=&d;
+   printf("d=%d, d的位址=&d=%p\n",d,&d); 
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr);  
+   system("pause");
+   return 0;
+}
 
+```
 
 # 20181018作業
 ```
