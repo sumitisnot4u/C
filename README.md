@@ -1,5 +1,7 @@
 
-# 20181213
+# 20181213:超難的指標一定要會
+
+### ex-1:
 ```
 /* prog10_2, 指標變數的宣告 */
 #include <stdio.h> 
@@ -30,9 +32,9 @@ int main(void)
 #include <stdlib.h>
 int main(void)
 {
-   int *ptr,d=100,num=20,c=33;	/* 宣告變數num與指標變數ptr */
+   int *ptr,d=103,num=210,c=333;	
 
-   ptr=&num;			/* 將num的位址設給指標ptr存放 */
+   ptr=&num;			
    printf("num=%d, num的位址=&num=%p\n",num,&num); 
    printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr); 
    ptr=&c;
@@ -44,6 +46,23 @@ int main(void)
    system("pause");
    return 0;
 }
+
+```
+```
+假如 c存放的位址是000000000062FE3C
+請問你 
+[1]
+   ptr=&num;			
+   printf("num=%d, num的位址=&num=%p\n",num,&num); --->印出的內容為何??
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr); --->印出的內容為何??
+[2]
+   ptr=&c;
+   printf("c=%d, c的位址=&c=%p\n",c,&c); --->印出的內容為何??
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr); --->印出的內容為何??
+[3]
+   ptr=&d;
+   printf("d=%d, d的位址=&d=%p\n",d,&d); --->印出的內容為何??
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr);  --->印出的內容為何??
 
 ```
 
