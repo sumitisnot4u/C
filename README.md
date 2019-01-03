@@ -37,7 +37,7 @@ call by value
 #include <stdio.h> 
 #include <stdlib.h>
 
-void swap(int,int);	
+void swap(______,_______);	
 
 int main(void)
 {
@@ -46,7 +46,7 @@ int main(void)
    printf("... ");
    printf("a=%d,b=%d\n",a,b);
    
-   swap(a,b);		
+   swap(____,______);		
    
    printf("... ");
    printf("a=%d,b=%d\n",a,b);
@@ -58,9 +58,9 @@ int main(void)
 /* wap() */
 void swap(int x,int y)	
 {
-   int tmp=x;
-   x=y;
-   y=tmp;
+   int _________;
+   ________;
+   ________;
 }
 
 ```
@@ -70,7 +70,7 @@ call by address
 #include <stdio.h> 
 #include <stdlib.h>
 
-void swap(int *,int *);  
+void swap(_______,_______);  
 
 int main(void)
 {
@@ -79,7 +79,7 @@ int main(void)
    printf("... ");
    printf("a=%d,b=%d\n",a,b);
    
-   swap(&a,&b);     
+   swap(______,_______);     
    
    printf("... ");
    printf("a=%d,b=%d\n",a,b);
@@ -88,11 +88,11 @@ int main(void)
    return 0;
 }
 
-void swap(int *p1,int *p2)
+void swap(_______,_______)
 {
-   int tmp=*p1;
-   *p1=*p2;
-   *p2=tmp;
+   int _________;
+   ________;
+   ________;
 }
 ```
 # 20181227 指標練習
