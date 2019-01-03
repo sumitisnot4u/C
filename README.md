@@ -1,4 +1,27 @@
-
+# 20190103 結構體
+```
+#include <stdlib.h>
+int main(void)
+{
+   struct data		/* 定義結構data */
+   {
+      char name[10];
+      int math;
+   } student; 		/* 宣告data型態的結構變數student */
+   
+   printf("請輸入姓名: "); 
+   _________(student.name);    			/* 輸入學生姓名 */
+   
+   printf("請輸入成績 :"); 
+   scanf("%d",___________);  	/* 輸入學生成績 */
+     
+   printf("你輸入的學生姓名為':%s\n", ___________); 
+   printf("該學生的成績為:%d\n", ____________); 
+   
+   system("pause");
+   return 0;
+}
+```
 # 20190103 指標練習
 
 ```
