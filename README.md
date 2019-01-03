@@ -25,7 +25,7 @@ void address(int *p1)
 ```
 ### 極重要觀念題:舉例說明call by address 與call by value的差異
 ```
-以兩個整數變數的value互換為例:int a=20,b=19===>函式執行後(swap()互換)===?答案變成a=19,b=20
+以兩個整數變數的value互換為例:int a=20,b=19===>函式執行後(swap()互換)===>答案變成a=19,b=20
 
 特別注意事項:
 (1)函式宣告的形式
@@ -98,7 +98,6 @@ void swap(_______,_______)
 
 ### 極重要應用題:在C語言程式設計中如何設計一個改變多個數值的函數 
 
-
 ```
 INPUT輸入:兩個整數代表長與寬
 OUTPUT輸出:面積area與周長peri
@@ -141,6 +140,16 @@ void myWork(int x,int y,int *p1, int *p2)
    *p1=x*y;
    *p2=2*(x+y);
 }
+```
+
+```
+再增加計算三角形面積
+```
+### 練習題
+```
+INPUT輸入:代表角度的浮點數變數THETA
+OUTPUT輸出:sin(THETA),cos(THETA),tan(THETA),cot(THETA),sec(THETA).csc(THETA)
+關鍵技術:只能使用一個函數
 ```
 # 20181227 指標練習
 
