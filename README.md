@@ -147,9 +147,11 @@ void myWork(int x,int y,int *p1, int *p2)
 ```
 ### 練習題
 ```
-INPUT輸入:代表角度的浮點數變數THETA
+INPUT輸入:代表角度的double雙精準浮點數變數THETA
 OUTPUT輸出:sin(THETA),cos(THETA),tan(THETA),cot(THETA),sec(THETA).csc(THETA)
 關鍵技術:只能使用一個函數
+
+https://zh.wikipedia.org/wiki/Math.h
 ```
 # 20181227 指標練習
 
