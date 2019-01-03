@@ -153,6 +153,9 @@ OUTPUT輸出:sin(THETA),cos(THETA),tan(THETA),cot(THETA),sec(THETA)csc(THETA)
 
 https://zh.wikipedia.org/wiki/Math.h
 ```
+### 每一個函式透過return可以回傳一個(也只有一個)值/答案===>其實函式也可以回傳一個address(位址)===>這有甚麼用處????
+
+
 # 20181227 指標練習
 
 ```
