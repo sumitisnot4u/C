@@ -23,7 +23,78 @@ void address(int *p1)
    *p1=*p1+5;
 }
 ```
+### 極重要觀念題:舉例說明call by address 與call by value的差異
+```
+以兩個整數變數的value互換為例:int a=20,b=19===>函式執行後(swap()互換)===?答案變成a=19,b=20
 
+特別注意事項:
+(1)函式宣告的形式
+(2)函式本體的運算
+```
+call by value
+```
+/* prog10_9 */
+#include <stdio.h> 
+#include <stdlib.h>
+
+void swap(int,int);	
+
+int main(void)
+{
+   int a=5,b=20;
+   
+   printf("... ");
+   printf("a=%d,b=%d\n",a,b);
+   
+   swap(a,b);		
+   
+   printf("... ");
+   printf("a=%d,b=%d\n",a,b);
+   
+   system("pause");
+   return 0;
+}
+
+/* wap() */
+void swap(int x,int y)	
+{
+   int tmp=x;
+   x=y;
+   y=tmp;
+}
+
+```
+call by address
+```
+/* prog10_10  */
+#include <stdio.h> 
+#include <stdlib.h>
+
+void swap(int *,int *);  
+
+int main(void)
+{
+   int a=5,b=20;
+   
+   printf("... ");
+   printf("a=%d,b=%d\n",a,b);
+   
+   swap(&a,&b);     
+   
+   printf("... ");
+   printf("a=%d,b=%d\n",a,b);
+
+   system("pause");
+   return 0;
+}
+
+void swap(int *p1,int *p2)
+{
+   int tmp=*p1;
+   *p1=*p2;
+   *p2=tmp;
+}
+```
 # 20181227 指標練習
 
 ```
