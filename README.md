@@ -153,8 +153,45 @@ OUTPUT輸出:sin(THETA),cos(THETA),tan(THETA),cot(THETA),sec(THETA)csc(THETA)
 
 https://zh.wikipedia.org/wiki/Math.h
 ```
-### 每一個函式透過return可以回傳一個(也只有一個)值/答案===>其實函式也可以回傳一個address(位址)===>這有甚麼用處????
+###  回傳address(位址)的函式設計技術
+```
+每一個函式透過return可以回傳一個(也只有一個)值/答案===>其實函式也可以回傳一個address(位址)===>這有甚麼用處????
+```
 
+```
+INPUT輸入:三個正整數
+OUTPUT輸出:三個正整數中最大值(MAX)
+關鍵技術:
+(1)使用一個函數int MAX()
+(2)使用一個回傳address的函數int *MAX()
+```
+```
+/* prog10_12, 由函數傳回指標  */
+#include <stdio.h>
+#include <stdlib.h>
+
+int *max(int *,int *);		/* 宣告函數max()的原型 */
+
+int main(void)
+{
+   int a=12,b=17,*ptr;
+
+   ptr=max(&a,&b);
+
+   printf("max=%d\n",*ptr);
+   
+   system("pause");
+   return 0;
+}
+
+int *max(int *p1, int *p2)
+{
+   if(*p1>*p2)
+      return p1;
+   else 
+      return p2;
+}
+```
 
 # 20181227 指標練習
 
