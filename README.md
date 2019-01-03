@@ -13,7 +13,7 @@ int main(void)
    
    address(&a);			/* 將a的位址傳入address()函數中 */
    address(ptr); 		/* 將ptr傳入address()函數中 */ 
-   
+   printf("最後a儲存的值(value)為%d\n",);
    system("pause");
    return 0;
 }
