@@ -78,6 +78,28 @@ int main(void)
 	   return 0;
 }
 ```
+
+```
+/* prog11_4, 結構的設值 */
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   struct data
+   {
+      char name[10];
+      int num;
+	  int math;
+   } s1={"trump",18080001,83},s2={"Obama",18080002,84};   	/* 宣告結構變數s1，並設定初值 */
+  		/* 宣告結構變數s2 */
+   
+   printf("s1.name=%s,s1.num=%d,s1.math=%d\n",s1.name,s1.num,s1.math);
+   printf("s2.name=%s,s2.num=%d,s2.math=%d\n",s2.name,s2.num,s2.math);
+   
+   system("pause");
+   return 0;
+}
+```
 # 20190103 結構體
 ```
 #include <stdlib.h>
