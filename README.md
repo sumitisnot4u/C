@@ -73,8 +73,8 @@ int main(void)
          s[0].ID=18080001;
 	 s[0].prog=79;
 	 s[1].name="Obama";
-         s[2].ID=18080002;
-	 s[3].prog=78;
+         s[1].ID=18080002;
+	 s[1].prog=78;
 	 
 	 printf("學號%d的%s同學的程式設計成績是%d\n",s[0].ID,s[0].name,s[0].prog);
 	 printf("學號%d的%s同學的程式設計成績是%d\n",s[1].ID,s[1].name,s[1].prog);
