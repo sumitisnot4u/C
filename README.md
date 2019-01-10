@@ -61,21 +61,19 @@ int main(void)
 #include <stdlib.h>
 int main(void)
 {
-	struct date /*結構設定*/
+	struct student /*結構設定*/
 	{
 		char name[10];
 		int number;
 		int prog;
-	 } s1={"trump",18080001,79};
-	 struct date2 /*結構設定*/
-	{
-		char name[10];
-		int number;
-		int prog;
-	 }s2={"Obama",18080002,78};
+	 } 
+	 
+	 struct student s[2];
+	 s[0]={"trump",18080001,79};
+         s[1]={"Obama",18080002,78};
 	   
-	   printf("學號%d的%s同學的程式設計成績是%d\n",s1.number,s1.name,s1.prog);
-	   printf("學號%d的%s同學的程式設計成績是%d\n",s2.number,s2.name,s2.prog);
+	   printf("學號%d的%s同學的程式設計成績是%d\n",s[0].number,s[0].name,s[0].prog);
+	   printf("學號%d的%s同學的程式設計成績是%d\n",s[1].number,s[1].name,s[1].prog);
 	   system("pause");
 	   return 0;
 }
