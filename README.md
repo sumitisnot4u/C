@@ -69,10 +69,10 @@ int main(void)
 	 } 
 	 
 	 struct student s[2];
-	 s[0].name="trump";
+	 s[0].name[10]="trump";
          s[0].ID=18080001;
 	 s[0].prog=79;
-	 s[1].name="Obama";
+	 s[1].name[10]="Obama";
          s[1].ID=18080002;
 	 s[1].prog=78;
 	 
