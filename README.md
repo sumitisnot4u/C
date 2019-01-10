@@ -56,6 +56,30 @@ int main(void)
    return 0;
 }
 ```
+```
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+	struct date /*結構設定*/
+	{
+		char name[10];
+		int number;
+		int prog;
+	 } s1={"trump",18080001,79};
+	 struct date2 /*結構設定*/
+	{
+		char name[10];
+		int number;
+		int prog;
+	 }s2={"Obama",18080002,78};
+	   
+	   printf("學號%d的%s同學的程式設計成績是%d\n",s1.number,s1.name,s1.prog);
+	   printf("學號%d的%s同學的程式設計成績是%d\n",s2.number,s2.name,s2.prog);
+	   system("pause");
+	   return 0;
+}
+```
 # 20190103 結構體
 ```
 #include <stdlib.h>
